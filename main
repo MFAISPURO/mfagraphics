@@ -1,0 +1,119 @@
+<//-- HTML --> 
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+
+<!--header -->
+<header id="header">
+    <nav id="navbar" class="nav">
+  <!-- logo -->
+<img id="header-img" src="https://i.postimg.cc/d1rspGnQ/mfagraphics-logo.png" alt="mfagraphic logo">
+  <!--  text -->
+   <h1> MFAgraphics </h1>
+  <!--nav bar -->
+  <ul>
+    <li><a class="nav-link" href="https://www.behance.net/mfagraphics">Graphic Design</a></li>
+    <li><a class="nav-link"  target="_blank" id="profile-link" href="https://aispurmf7766ce12.myportfolio.com/">Photography</a></li>
+    <li><a class="nav-link" href="#Oil Paintings & Illustration">Oil Paintings & Illustration</a></li>
+     <li><a class="nav-link" href="#Shop & Patreon">Shop & Patreon</a></li>
+     <li><a class="nav-link" href="#about">About/Contact</a></li>
+  </ul>
+</nav>
+   </header>
+<!-- end header -->
+     
+<!--welcome section --> 
+<section id="welcome-section" class="welcome">
+  <h1> Mixed media art. About Section. 
+  </h1>
+  </section>
+ 
+ <!--projects -->  
+   <section id="projects">
+     </div> 
+  <!-- Graphic Design Box -->
+  <div class="project-tile" id="gd_section" > 
+    <a href="https://www.behance.net/mfagraphics">
+   <figure>
+  <img src="https://i.postimg.cc/DyzHTPjX/If-we-are-going-to-heal.png" alt="Trulli" style="width:100%">
+  <figcaption>Graphic Design Porfolio </figcaption>
+</figure>
+  </div>
+        <!-- Photography Box -->
+  <div class="project-tile"> 
+    <a href="https://aispurmf7766ce12.myportfolio.com/" id="profile-link"> <figure>
+  <img src="https://i.postimg.cc/DyzHTPjX/If-we-are-going-to-heal.png" alt="Trulli" style="width:100%">
+  <figcaption>Photography Porfolio </figcaption>
+</figure>
+ 
+</a>
+   
+  </div>
+              <!-- Oil Paintings & Illustration Box -->
+  <div class="project-tile" id="oi_section"> 
+    <a href="https://aispurmf7766ce12.myportfolio.com/">
+   <figure>
+  <img src="https://i.postimg.cc/DyzHTPjX/If-we-are-going-to-heal.png" alt="Trulli" style="width:100%">
+  <figcaption>Oil Paintings & Illustration </figcaption>
+</figure>
+  </div>
+    </section>
+        <!--   Shop & Patreon Box -->
+  <section>
+    <div class="shop" id="sp_section"> 
+    <a href="https://aispurmf7766ce12.myportfolio.com/">
+   <figure>
+  <img src="https://i.postimg.cc/DyzHTPjX/If-we-are-going-to-heal.png" alt="Trulli" style="width:100%">
+  <figcaption>  Shop & Patreon </figcaption>
+</figure>
+  </div>     
+      
+  </section>
+
+   
+<!-- end body -->
+<footer id="about" class="footer">
+  <div>
+  @mfagraphics Social media
+  </div>
+  </footer>
+
+<!-- CSS -->
+header {
+  display: flex; 
+  position: center;
+}
+nav {
+  position: fixed;
+  font-size: 16px;
+  display: flex;
+  top: 0;
+  left: 2500;
+}
+
+  
+}
+ welcome-section {
+  height: 100vh;
+  }
+
+img {
+  max-width: 7%;
+  max-height: 4;
+  padding-left: 40px;
+}
+h1 {
+  font-size: 30px;
+  display: flex;
+}
+
+
+.welcome {
+  height: 100vh;
+}
+
+@media screen and (min-width: 400px) {
+  body {
+    background-color: beige;
+  }
+}
+
