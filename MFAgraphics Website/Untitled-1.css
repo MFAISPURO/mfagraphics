@@ -1,0 +1,26 @@
+
+header {
+  position: center;
+}
+nav {
+  position: fixed;
+  font-size: 16px;
+  display: flex;
+  top: 0;
+  left: 2500;
+}
+
+welcome-section {
+  height: 100vh;
+}
+
+img {
+  max-width: 10px;
+  max-height: 10px;
+  padding-left: 40px;
+}
+projects {
+  display: flex;
+}
+
+
